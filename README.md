@@ -29,7 +29,7 @@ A powerful web application for calculating minimum viable rates for multi-curren
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/rajwanur/Viable-Rate-Converter.git
 cd Viable-Rate-Converter
 ```
 
