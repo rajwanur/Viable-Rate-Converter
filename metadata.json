@@ -1,0 +1,5 @@
+{
+  "name": "Viable Rate Currency Converter",
+  "description": "An application to determine the minimum viable rate for currency conversion between GBP, MYR, and BDT, including government incentives and cost analysis.",
+  "requestFramePermissions": []
+}
