@@ -1,16 +1,19 @@
 export enum Currency {
-    GBP = 'GBP',
-    MYR = 'MYR',
-    BDT = 'BDT',
+  GBP = "GBP",
+  MYR = "MYR",
+  EUR = "EUR",
+  BDT = "BDT",
 }
 
 export enum ApiSource {
-    EXCHANGE_RATE_API = 'ExchangeRate-API',
-    WISE = 'Wise',
+  EXCHANGE_RATE_API = "ExchangeRate-API",
+  WISE = "Wise",
 }
 
 export interface Rates {
-    GBP_TO_MYR: number;
-    GBP_TO_BDT: number;
-    MYR_TO_BDT?: number; // Direct market rate, if available from the source
+  GBP_TO_MYR: number;
+  GBP_TO_BDT: number;
+  GBP_TO_EUR: number;
+  MYR_TO_BDT?: number; // Direct market rate, if available from the source
+  EUR_TO_BDT?: number; // Direct market rate, if available from the source
 }
